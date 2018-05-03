@@ -20,7 +20,7 @@
   padding-bottom: 40px;
 }
 
-h1 {
+h1, h2 {
   font-family: "Montserrat";
   font-weight: 700;
   color: white;
@@ -119,4 +119,59 @@ button.white-transperant {
 
 .twitter-timeline {
   width: 100px;
+}
+
+/* REMOVE */
+
+.footer-main {
+	background-color: #34373F;
+}
+
+.footer-links {
+	color: white;
+	list-style: square;
+}
+
+.footer-social {
+	font-size:40px;
+	color:#e0e0e5;
+}
+.footer-social:hover {
+  color:white;
+}
+
+.footer-text {
+	color: white;
+	margin-top:5px;
+}
+
+.auth-text {
+	color: white;
+	margin-top:5px;
+  text-align:center;
+}
+
+button.white-transperant {
+	border: solid 2px white;
+    color: white;
+    background-color: transparent;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+
+.hide-mobile {
+   display:none;
+ }
+
+.flexCenterThis{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body, p, h4, h5, h6,{
+	font-family: 'Lato', sans-serif;
 }
