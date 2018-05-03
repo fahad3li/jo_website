@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+}
+
+.desktop_banner{
+  height: 40vh;
+  background-image: url(../images/head_banner.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+}
+
+.desktop_jo_intro{
+  background-color: #0D3D5F;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+}
+
+.desktop_jo_blurb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blurb_item {
+  margin: 0 30px;
+}
+
+.stronger_community_grid {
+  margin: 0 auto;
+}
+
+.stronger_community_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.sc_1 {
+  background-image: url(../images/nbn.jpg);
+}
+
+.sc_2 {
+  background-image: url(../images/charity.jpg);
+}
+
+.sc_3 {
+  background-image: url(../images/pension.jpg);
+}
+
+.sc_4 {
+  background-image: url(../images/pff.jpg);
+}
+
+.sc_card {
+  display: flex;
+  width: 50vh;
+  height: 20vh;
+  color: white;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: bold;
+  align-items: center;
+  justify-content :center;
+  margin: 0 30px;
+  border: solid 5px #0D3D5F;
+  text-shadow: 1px 1px black;
+
+}
+
+.sc_1:hover {
+  background-image: url(50%-../images/nbn.jpg); /* will need to use alt .png image for transparency */
+}
+
+.sc_2:hover {
+  background-image: url(50%-../images/nbn.jpg); /* will need to use alt .png image for transparency */
+}
+
+.sc_3:hover {
+  background-image: url(50%-../images/nbn.jpg); /* will need to use alt .png image for transparency */
+}
+
+.sc_4:hover {
+  background-image: url(50%-../images/nbn.jpg); /* will need to use alt .png image for transparency */
+}
+
+.volunteer_ribbon{
+  background-color: #0D3D5F;
+  height: 10vh;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.white-transperant {
+	border: solid 2px white;
+    color: white;
+    background-color: transparent;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    margin-left: 120px;
+    font-size: 22px;
+}
+
+.twitter-timeline {
+  width: 100px;
+}
